@@ -55,6 +55,7 @@
         0x8824 : "SpectralSensitivity",     // Spectral sensitivity
         0x8827 : "ISOSpeedRatings",         // ISO speed rating
         0x8828 : "OECF",                    // Optoelectric conversion factor
+        0x8830 : "SensitivityType",
         0x9201 : "ShutterSpeedValue",       // Shutter speed
         0x9202 : "ApertureValue",           // Lens aperture
         0x9203 : "BrightnessValue",         // Value of brightness
@@ -93,6 +94,9 @@
         // other tags
         0xA005 : "InteroperabilityIFDPointer",
         0xA420 : "ImageUniqueID"            // Identifier assigned uniquely to each image
+        0xA431 : "BodySerialNumber",
+        0xA432 : "LensSpecification",
+        0xA434 : "LensModel"
     };
 
     var TiffTags = EXIF.TiffTags = {
